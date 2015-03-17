@@ -52,7 +52,7 @@ if [ -x dummy ]
 rm -f dummy.c dummy
 EOF
 
-bash version-check.sh
+#bash version-check.sh
 
 cat > library-check.sh << "EOF"
 #!/bin/bash
@@ -63,4 +63,4 @@ done
 unset lib
 EOF
 
-bash library-check.sh
+#bash library-check.sh
